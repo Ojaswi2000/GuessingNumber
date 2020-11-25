@@ -11,18 +11,17 @@ export default function App() {
     setUserNumber(selectedNumber);
 
   };
-  let content = <StartGameScreen/>;
+  let content = <StartGameScreen onStartGame={startGameHandler}/>;
 
   if(userNumber)
   {
-    content =<GameScreen/>;
+    content =<GameScreen userChoice={userNumber}/>;
   }
 
   return (
     <View style={styles.screen}>
       <Header title='Guess A number'/>
       {content};
-      
     </View>
   );
 }
