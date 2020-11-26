@@ -5,6 +5,8 @@ const GameOverScreen=props=>{
     return(
         <View style={styles.screen}>
             <Text>The Game is Over !!</Text>
+            <Text>The number of rounds :{props.roundsNumber}</Text>
+            <Text>The number to be guessed was:{props.userNumber}</Text>
         </View>
     );
 };
