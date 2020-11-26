@@ -23,7 +23,7 @@ export default function App() {
     content =<GameScreen userChoice={userNumber} onGameOver={GameOverHandler} />;
   }
   else if(guessRounds>0)
-  content=<GameOverScreen />;
+  content=<GameOverScreen roundsNumber={guessRounds} userNumber={userNumber}/>;
 
   return (
     <View style={styles.screen}>
