@@ -8,7 +8,12 @@ const GameOverScreen=props=>{
         <View style={styles.screen}>
             <TitleText>The Game is Over !!</TitleText>
             <View style={styles.imageContainer}>
-            <Image source={require('../assets/success.png')} style={styles.image} resizeMode='contain' />
+            <Image 
+            //source={require('../assets/success.png')} 
+            source={{uri:'https://media.istockphoto.com/photos/ama-dablam-mount-in-the-nepal-himalaya-picture-id485966046?k=6&m=485966046&s=612x612&w=0&h=rpI0-lFzV1XwBNwV5stQy_cDeICYTN8xGn_O0dOlync='}} 
+            style={styles.image} 
+            resizeMode='contain' 
+            />
             </View>
             <BodyText>The number of rounds :{props.roundsNumber}</BodyText>
             <BodyText>The number to be guessed was:{props.userNumber}</BodyText>
