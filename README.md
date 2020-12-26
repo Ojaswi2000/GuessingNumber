@@ -14,3 +14,9 @@ To install the environment, type the following command on the terminal:
 * [Node.js LTS release](https://nodejs.org/en/) or greater
 * [Git](https://git-scm.com/)
 * [Watchman for macOS users](https://facebook.github.io/watchman/docs/install#buildinstall)
+<br>
+## Recommended Tools
+
+* [VSCode Editor](https://code.visualstudio.com/download)
+* [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+* Windows users: [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) or Bash via WSL
