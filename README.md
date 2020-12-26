@@ -15,6 +15,7 @@ To install the environment, type the following command on the terminal:
 * [Git](https://git-scm.com/)
 * [Watchman for macOS users](https://facebook.github.io/watchman/docs/install#buildinstall)
 <br>
+
 ## Recommended Tools
 
 * [VSCode Editor](https://code.visualstudio.com/download)
