@@ -8,3 +8,9 @@ As this project is built on `expo-cli` and not on `react-native-cli`,hence we fi
 To install the environment, type the following command on the terminal:
 <br>
 `npm install --global expo-cli`
+<br>
+## Requirements:
+
+* [Node.js LTS release](https://nodejs.org/en/) or greater
+* [Git](https://git-scm.com/)
+* [Watchman for macOS users](https://facebook.github.io/watchman/docs/install#buildinstall)
