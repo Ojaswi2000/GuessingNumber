@@ -17,7 +17,16 @@ To install the environment, type the following command on the terminal:
 <br>
 
 ## Recommended Tools
-
 * [VSCode Editor](https://code.visualstudio.com/download)
 * [Yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable)
 * Windows users: [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7.1) or Bash via WSL
+
+## Dependencies
+  * "@use-expo/font": "^2.0.0",
+  * "expo": "~39.0.2",
+  * "expo-font": "~8.3.0",
+  * "expo-status-bar": "~1.0.2",
+  * "react": "16.13.1",
+  * "react-dom": "16.13.1",
+  * "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+  * "react-native-web": "~0.13.12"
